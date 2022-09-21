@@ -1,0 +1,65 @@
+body::before {
+    content: "";
+    height: 2580px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/bgimage.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    opacity: 0.86;
+}
+
+#main-body,
+#second-row,
+#Inspire,
+#Inspire-second-row,
+#sad,
+#sad-second-row {
+    height: 280px;
+    margin: 43px;
+}
+
+#main-body .button,
+#second-row .button,
+#page-2 .button,
+#page-3 .button {
+    width: 80px;
+    height: 80px;
+    margin-top: 300px;
+    z-index: 0;
+    position: absolute;
+    /* top: 570px; */
+    cursor: pointer;
+}
+
+#main-body .button,
+#second-row .button,
+#page-2 .button,
+#page-3 .button {
+    margin-top: 150px;
+}
+
+
+/* .button {
+    margin-top: 30px;
+} */
+
+.box-container {
+    margin: 13px;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+}
+
+.box .info {
+    font-size: 35px;
+}
+
+#About-us {
+    width: 100%;
+}

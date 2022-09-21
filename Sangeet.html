@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangeet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" media="screen and (min-width: 417px) and (max-width: 805px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (min-width:310px) and (max-width: 420px)" href="phone.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="#">Sangeet</a>
+        <ul>
+            <li><a href="#">Chill</a></li>
+            <li><a href="#page-2">Inspirational</a></li>
+            <li><a href="#page-3">Sad</a></li>
+            <!-- <li><a href="#">Inspiring</a></li> -->
+            <li><a href="#About-us">About us</a></li>
+        </ul>
+    </nav>
+    <p id="top-heading">Relax and chill !!</p>
+    <section id="main-body">
+        <div class="box-container">
+            <div class="box" id="box1">
+                <!-- <img src="/images/nature1.png" alt="" class="box-bg"> -->
+                <audio id="audio1">
+                    <source src="/audio/Chill/among the stars.mp3" type="audio/mp3">
+                </audio>
+                <div class="info-container">
+                    <p class="info">Among the stars</p>
+                </div>
+                <img src="/images/playNobackground.png" onclick="playPause(audio1,btn1)" id="btn1" alt="play button" class="button">
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box" id="box2">
+                <audio id="audio2">
+                <source src="/audio/Chill/0108. Winter - AShamaluevMusic.mp3" type="audio/mp3">
+            </audio>
+                <div class="info-container">
+                    <p class="info">Winter</p>
+                </div>
+                <img src="/images/playNobackground.png" onclick="playPause(audio2,btn2)" alt="play button" id="btn2" class="button">
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box" id="box3">
+                <audio id="audio3">
+                    <source src="/audio/Chill/0110. Relaxing Room - AShamaluevMusic.mp3" type="audio/mp3">
+                 </audio>
+                <div class="info-container">
+                    <p class="info">Relaxing Room</p>
+                </div>
+                <img src="/images/playNobackground.png" onclick="playPause(audio3,btn3)" id="btn3" alt="play button" class="button">
+            </div>
+        </div>
+        <!-- <div class="box" id="box4"><img src="/images/playNobackground.png" alt="play button" class="button"></div> -->
+    </section>
+
+    <section id="second-row">
+        <div class="box-container">
+            <div class="box" id="box5">
+                <audio id="audio5">
+                <source src="/audio/Chill/0106. Calming - AShamaluevMusic.mp3" type="audio/mp3">
+            </audio>
+                <div class="info-container">
+                    <p class="info">Calming</p>
+                </div>
+                <img src="/images/playNobackground.png" onclick="playPause(audio5,btn5)" id="btn5" alt="play button" class="button">
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box" id="box6">
+                <audio id="audio6">
+                <source src="/audio/Chill/0119. Blessing - AShamaluevMusic.mp3" type="audio/mp3">
+            </audio>
+                <div class="info-container">
+                    <p class="info">Blessing</p>
+                </div>
+                <img src="/images/playNobackground.png" onclick="playPause(audio6,btn6)" id="btn6" alt="play button" class="button">
+            </div>
+        </div>
+
+        <div class="box-container">
+            <div class="box" id="box7">
+                <audio id="audio7">
+                <source src="/audio/Chill/0124. Heaven - AShamaluevMusic.mp3" type="audio/mp3">
+            </audio>
+                <div class="info-container">
+                    <p class="info">Heaven</p>
+                </div>
+                <img src="/images/playNobackground.png" onclick="playPause(audio7,btn7)" id="btn7" alt="play button" class="button">
+            </div>
+        </div>
+        <!-- <div class="box" id="box8"><img src="/images/playNobackground.png" alt="play button" class="button"></div> -->
+    </section>
+
+    <div id="page-2">
+        <!-- <img src="/images/earphone.jpg" alt=""> -->
+        <p class="header-p">Inspirational Music !</p>
+        <section id="Inspire">
+            <div class="box-container">
+                <div class="box" id="box9">
+                    <audio id="audio9">
+                        <source src="/audio/motivation/0110. My Dream - AShamaluevMusic.mp3" type="audio/mp3">
+                    </audio>
+                    <div class="info-container">
+                        <p class="info">My Dream</p>
+                    </div>
+                    <img src="/images/playNobackground.png" onclick="playPause(audio9,btn9)" id="btn9" alt="play button" class="button">
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box" id="box10">
+                    <audio id="audio10">
+                    <source src="/audio/motivation/0102. Inspirational Moment - AShamaluevMusic.mp3" type="audio/mp3">
+                </audio>
+                    <div class="info-container">
+                        <p class="info">Inspirational Moment</p>
+                    </div>
+                    <img src="/images/playNobackground.png" onclick="playPause(audio10,btn10)" id="btn10" alt="play button" class="button">
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box" id="box11">
+                    <audio id="audio11">
+                    <source src="/audio/motivation/0121. Vision - AShamaluevMusic.mp3" type="audio/mp3">
+                </audio>
+                    <div class="info-container">
+                        <p class="info">Vision</p>
+                    </div>
+                    <img src="/images/playNobackground.png" onclick="playPause(audio11,btn11)" id="btn11" alt="play button" class="button">
+                </div>
+            </div>
+            <!-- <div class="box" id="box12"><img src="/images/playNobackground.png" alt="play button" class="button"></div> -->
+        </section>
+
+        <section id="Inspire-second-row">
+            <div class="box-container">
+                <div class="box" id="box13">
+                    <audio id="audio13">
+                    <source src="/audio/motivation/0122. Revolution - AShamaluevMusic.mp3" type="audio/mp3">
+                </audio>
+                    <div class="info-container">
+                        <p class="info">Revolution</p>
+                    </div>
+                    <img src="/images/playNobackground.png" onclick="playPause(audio13,btn13)" id="btn13" alt="play button" class="button">
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box" id="box14">
+                    <audio id="audio14">
+                    <source src="/audio/motivation/0114. Depth - AShamaluevMusic.mp3" type="audio/mp3">
+                </audio>
+                    <div class="info-container">
+                        <p class="info">Depth</p>
+                    </div>
+                    <img src="/images/playNobackground.png" onclick="playPause(audio14,btn14)" id="btn14" alt="play button" class="button">
+                </div>
+            </div>
+
+            <div class="box-container">
+                <div class="box" id="box15">
+                    <audio id="audio15">
+                    <source src="/audio/motivation/0126. Dusk - AShamaluevMusic.mp3" type="audio/mp3">
+                </audio>
+                    <div class="info-container">
+                        <p class="info">Dusk</p>
+                    </div>
+                    <img src="/images/playNobackground.png" onclick="playPause(audio15,btn15)" id="btn15" alt="play button" class="button">
+                </div>
+            </div>
+            <!-- <div class="box" id="box16"><img src="/images/playNobackground.png" alt="play button" class="button"></div> -->
+        </section>
+
+
+        <div id="page-3">
+            <!-- <img src="/images/earphone.jpg" alt=""> -->
+            <p class="header-p">Sad !</p>
+            <section id="sad">
+                <div class="box-container">
+                    <div class="box" id="box16">
+                        <audio id="audio16">
+                        <source src="/audio/sad/0089. The End Of War - AShamaluevMusic.mp3" type="audio/mp3">
+                    </audio>
+                        <div class="info-container">
+                            <p class="info">The End Of War</p>
+                        </div>
+                        <img src="/images/playNobackground.png" onclick="playPause(audio16,btn16)" id="btn16" alt="play button" class="button">
+                    </div>
+                </div>
+
+                <div class="box-container">
+                    <div class="box" id="box17">
+                        <audio id="audio17">
+                        <source src="/audio/sad/0093. Loss - AShamaluevMusic.mp3" type="audio/mp3">
+                    </audio>
+                        <div class="info-container">
+                            <p class="info">Loss</p>
+                        </div>
+                        <img src="/images/playNobackground.png" onclick="playPause(audio17,btn17)" id="btn17" alt="play button" class="button">
+                    </div>
+                </div>
+
+                <div class="box-container">
+                    <div class="box" id="box18">
+                        <audio id="audio18">
+                        <source src="/audio/sad/0112. Harmony - AShamaluevMusic.mp3" type="audio/mp3">
+                    </audio>
+                        <div class="info-container">
+                            <p class="info">Harmony</p>
+                        </div>
+                        <img src="/images/playNobackground.png" onclick="playPause(audio18,btn18)" id="btn18" alt="play button" class="button">
+                    </div>
+                </div>
+                <!-- <div class="box" id="box12"><img src="/images/playNobackground.png" alt="play button" class="button"></div> -->
+            </section>
+
+            <section id="sad-second-row">
+                <div class="box-container">
+                    <div class="box" id="box19">
+                        <audio id="audio19">
+                        <source src="/audio/sad/0065. Rain - AShamaluevMusic.mp3" type="audio/mp3">
+                    </audio>
+                        <div class="info-container">
+                            <p class="info">Rain</p>
+                        </div>
+                        <img src="/images/playNobackground.png" onclick="playPause(audio19,btn19)" id="btn19" alt="play button" class="button">
+                    </div>
+                </div>
+
+                <div class="box-container">
+                    <div class="box" id="box20">
+                        <audio id="audio20">
+                        <source src="/audio/sad/0074. Hopeful - AShamaluevMusic.mp3" type="audio/mp3">
+                    </audio>
+                        <div class="info-container">
+                            <p class="info">Hopeful</p>
+                        </div>
+                        <img src="/images/playNobackground.png" onclick="playPause(audio20,btn20)" id="btn20" alt="play button" class="button">
+                    </div>
+                </div>
+
+                <div class="box-container">
+                    <div class="box" id="box21">
+                        <audio id="audio21">
+                        <source src="/audio/sad/0113. Feeling - AShamaluevMusic.mp3" type="audio/mp3">
+                    </audio>
+                        <div class="info-container">
+                            <p class="info">Feeling</p>
+                        </div>
+                        <img src="/images/playNobackground.png" onclick="playPause(audio21,btn21)" id="btn21" alt="play button" class="button">
+                    </div>
+                </div>
+                <!-- <div class="box" id="box16"><img src="/images/playNobackground.png" alt="play button" class="button"></div> -->
+            </section>
+
+            <script src="/js/audio.js"></script>
+        </div>
+    </div>
+    <footer id="About-us">
+        &copy; 2022 Made by Shreyansh Bhagat. All rights reserved.
+    </footer>
+</body>
+
+</html>

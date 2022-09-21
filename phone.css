@@ -1,0 +1,160 @@
+    #navbar {
+        /* display: flex; */
+        /* position: absolute; */
+        flex-direction: column;
+        padding: 10px 5px;
+    }
+    /*dl,
+ol,
+ul {
+    /* margin-top: 10px;
+    margin-bottom: 1rem;
+    margin: 13px;
+    margin-left: 5rem; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+#main-body,
+#second-row,
+#Inspire,
+#Inspire-second-row,
+#sad,
+#sad-second-row {
+    display: flex;
+    flex-direction: column;
+}
+
+p,
+.header-p {
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+.box-container {
+    flex-wrap: wrap;
+    margin: 5%;
+} 
+
+.box {
+    height: 200px;
+    width: 200px;
+}*/
+    
+    body::before {
+        content: "";
+        height: 1025%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/bgimage.jpg') no-repeat center center/cover;
+        background-attachment: fixed;
+        opacity: 0.86;
+    }
+    
+    #main-body,
+    #second-row,
+    #Inspire,
+    #Inspire-second-row,
+    #sad,
+    #sad-second-row {
+        height: 280px;
+        margin: 43px;
+        display: inline;
+    }
+    
+    #main-body .button,
+    #second-row .button,
+    #page-2 .button,
+    #page-3 .button {
+        width: 80px;
+        height: 80px;
+        margin-top: 300px;
+        z-index: 0;
+        position: absolute;
+        /* top: 570px; */
+        cursor: pointer;
+    }
+    
+    #main-body .button,
+    #second-row .button,
+    #page-2 .button,
+    #page-3 .button {
+        margin-top: 150px;
+    }
+    /* .button {
+    margin-top: 30px;
+} */
+    
+    .box-container {
+        margin-top: 20%;
+    }
+    
+    .box {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .box .info {
+        font-size: 35px;
+    }
+    
+    #About-us {
+        position: relative;
+        width: 100%;
+        top: 1280px;
+        /* bottom: 0px; */
+    }
+    /* iphone 5s */
+    
+    @media screen and (min-width: 319px) and (max-width: 374px) {
+        body::before {
+            content: "";
+            height: 1040%;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/bgimage.jpg') no-repeat center center/cover;
+            background-attachment: fixed;
+            opacity: 0.86;
+        }
+        #About-us {
+            position: relative;
+            width: 100%;
+            top: 100px;
+        }
+    }
+    /* Iphone 6/7/8/X/XS */
+    
+    @media screen and (min-width: 375px) and (max-width: 413px) {
+        body::before {
+            content: "";
+            height: 930%;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/bgimage.jpg') no-repeat center center/cover;
+            background-attachment: fixed;
+            opacity: 0.86;
+        }
+        #About-us {
+            position: relative;
+            width: 100%;
+            top: 180px;
+        }
+    }

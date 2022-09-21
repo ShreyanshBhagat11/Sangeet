@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* body {
+    /* height: 3000px; 
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/bgimage.jpg') no-repeat center center/cover;
+    /* width: 100%; 
+    opacity: 0.86;
+}*/
+
+body::before {
+    content: "";
+    height: 3450px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/bgimage.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    opacity: 0.86;
+}
+
+
+/* Navbar */
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgba(90, 90, 90, 0.493);
+    width: 100%;
+    /* margin-left: 3%; */
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+#navbar>a {
+    display: inline-block;
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    margin-left: 3%;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar ul li a:hover {
+    /* background-color: black; */
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.15s ease-in-out;
+}
+
+
+/* Main Body */
+
+p {
+    font-size: 54px;
+    text-align: center;
+    color: white;
+}
+
+#top-heading {
+    margin-top: 50px;
+}
+
+
+/* #main-body::before {
+    content: "";
+    height: 1230px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/bgimage.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    opacity: 0.86;
+} */
+
+#main-body,
+#second-row,
+#Inspire,
+#Inspire-second-row,
+#sad,
+#sad-second-row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* border: 2px solid black; */
+    /* height: 490px; */
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    filter: invert(100%);
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    /* margin: 5%; */
+    /* border: 2px solid black; */
+    /* padding: 10px; */
+    /* margin: 5%; */
+    cursor: pointer;
+    box-shadow: 5px 15px 25px 3px;
+    /* z-index: -3; */
+}
+
+.box:hover {
+    box-shadow: 15px 30px 25px 0px;
+    transition: all .3s ease-out;
+    /* transform: translate(-50%, -50%); */
+    /* transform: rotateY(180deg); */
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .info {
+    display: none;
+    color: white;
+    /* position: absolute; */
+}
+
+.box:hover .info {
+    /* display: block; */
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    transition: all .3s ease;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7,
+#box8,
+#box9,
+#box10,
+#box11,
+#box12,
+#box13,
+#box14,
+#box15,
+#box16,
+#box17,
+#box18,
+#box19,
+#box20,
+#box21 {
+    display: flex;
+    /*flex-wrap: wrap; */
+    justify-content: center;
+    /* z-index: -1;*/
+}
+
+#box1 {
+    /* background: url(https://source.unsplash.com/1600x900/?nature) no-repeat center center/cover; */
+    background: url(/images/box/among_the_stars.jpg) no-repeat center center/cover;
+}
+
+#box2 {
+    /* background: url(https://source.unsplash.com/1600x900/?nature,mountain) no-repeat center center/cover; */
+    background: url(/images/box/winter.jpg) no-repeat center center/cover;
+}
+
+#box3 {
+    /* background: url(https://source.unsplash.com/1600x900/?waterfall,nature) no-repeat center center/cover; */
+    background: url(/images/box/relaxing_room.jpg) no-repeat center center/cover;
+}
+
+
+/* #box4 {
+    background: url(https://source.unsplash.com/1600x900/?nature,water) no-repeat center center/cover;
+} */
+
+#box5 {
+    /* background: url(https://source.unsplash.com/1600x900/?snow,tree) no-repeat center center/cover; */
+    background: url(/images/box/calming.jpg) no-repeat center center/cover;
+}
+
+#box6 {
+    /* background: url(https://source.unsplash.com/1600x900/?forest,trees,plants) no-repeat center center/cover; */
+    background: url(/images/box/blessing.jpg) no-repeat center center/cover;
+}
+
+#box7 {
+    /* background: url(https://source.unsplash.com/1600x900/?flowers,roses,tulips,lotus) no-repeat center center/cover; */
+    background: url(/images/box/heaven.jpg) no-repeat center center/cover;
+}
+
+
+/*
+#box8 {
+    background: url(https://source.unsplash.com/1600x900/?nature,water) no-repeat center center/cover;
+}
+*/
+
+#box9 {
+    /* background: url(https://source.unsplash.com/1600x900/?sky) no-repeat center center/cover; */
+    background: url(/images/box/my_dream.jpg) no-repeat center center/cover;
+}
+
+#box10 {
+    /* background: url(https://source.unsplash.com/1600x900/?sunset) no-repeat center center/cover; */
+    background: url(/images/box/inspirational_moment.jpg) no-repeat center center/cover;
+}
+
+#box11 {
+    /* background: url(https://source.unsplash.com/1600x900/?tiger) no-repeat center center/cover; */
+    background: url(/images/box/vision2.jpg) no-repeat center center/cover;
+}
+
+
+/*
+#box12 {
+    background: url(https://source.unsplash.com/1600x900/?nature,water) no-repeat center center/cover;
+}
+*/
+
+#box13 {
+    /* background: url(https://source.unsplash.com/1600x900/?cars) no-repeat center center/cover; */
+    background: url(/images/box/revolution.jpg) no-repeat center center/cover;
+}
+
+#box14 {
+    /* background: url(https://source.unsplash.com/1600x900/?highest,peak) no-repeat center center/cover; */
+    background: url(/images/box/depth.jpg) no-repeat center center/cover;
+}
+
+#box15 {
+    /* background: url(https://source.unsplash.com/1600x900/?luxurious,mansion) no-repeat center center/cover; */
+    background: url(/images/box/dusk.jpg) no-repeat center center/cover;
+}
+
+#box16 {
+    /* background: url(https://source.unsplash.com/1600x900/?war,end) no-repeat center center/cover; */
+    background: url(/images/box/end_of_war2.jpg) no-repeat center center/cover;
+}
+
+#box17 {
+    /* background: url(https://source.unsplash.com/1600x900/?leaves) no-repeat center center/cover; */
+    background: url(/images/box/loss.jpg) no-repeat center center/cover;
+}
+
+#box18 {
+    /* background: url(https://source.unsplash.com/1600x900/?harmony) no-repeat center center/cover; */
+    background: url(/images/box/harmony.jpg) no-repeat center center/cover;
+}
+
+#box19 {
+    /* background: url(https://source.unsplash.com/1600x900/?rain) no-repeat center center/cover; */
+    background: url(/images/box/rain.jpg) no-repeat center center/cover;
+}
+
+#box20 {
+    /* background: url(https://source.unsplash.com/1600x900/?hopeful) no-repeat center center/cover; */
+    background: url(/images/box/hopeful.jpg) no-repeat center center/cover;
+}
+
+#box21 {
+    /* background: url(https://source.unsplash.com/1600x900/?gratitude) no-repeat center center/cover; */
+    background: url(/images/box/feeling.jpg) no-repeat center center/cover;
+}
+
+#main-body .button,
+#second-row .button,
+#page-2 .button,
+#page-3 .button {
+    width: 100px;
+    height: 100px;
+    margin-top: 247px;
+    z-index: 0;
+    position: absolute;
+    /* top: 570px; */
+    cursor: pointer;
+}
+
+#main-body .box-bg {
+    background: no-repeat center center/cover;
+}
+
+
+/* second page */
+
+.header-p {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: 54px;
+}
+
+
+/* #page-2::before {
+    content: "";
+    height: 1200px;
+    width: 100%;
+    position: absolute;
+    top: 1230px;
+    left: 0px;
+    z-index: -1;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../images/inspire2.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    opacity: 0.75;
+} */
+
+
+/* third page */
+
+#header-p {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 54px;
+}
+
+
+/* #page-3::before {
+    content: "";
+    height: 1145px;
+    width: 100%;
+    position: absolute;
+    top: 2430px;
+    left: 0px;
+    z-index: -1;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('/images/sadWallpaper/bg2.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    opacity: 0.85;
+} */
+
+
+/* footer */
+
+#About-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    height: 200px;
+}
